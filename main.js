@@ -12,15 +12,15 @@ for (var i = 0; i < 100; i++) {
   ++currentNumber;
   if (currentNumber % 3 == 0 && currentNumber % 5 == 0) {
     numbersCollection.push('FizzBuzz');
-    outputField.innerHTML += '<li>' + 'FizzBuzz' + '</li>';
+    outputField.innerHTML += '<li class="fizz-buzz">' + 'FizzBuzz' + '</li>';
   }
   else if (currentNumber % 3 == 0) {
     numbersCollection.push('Fizz');
-    outputField.innerHTML += '<li>' + 'Fizz' + '</li>';
+    outputField.innerHTML += '<li class="fizz">' + 'Fizz' + '</li>';
   }
   else if (currentNumber % 5 == 0) {
     numbersCollection.push('Buzz');
-    outputField.innerHTML += '<li>' + 'Buzz '+ '</li>' ;
+    outputField.innerHTML += '<li class="buzz">' + 'Buzz '+ '</li>' ;
   }
   else {
     numbersCollection.push(currentNumber);
