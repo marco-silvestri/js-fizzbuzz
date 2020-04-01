@@ -21,7 +21,6 @@ ul {
   list-style: none;
   flex-wrap: wrap;
   justify-content: space-around;
-  flex-basis: 20%;
 }
 
 li {
